@@ -22,6 +22,7 @@ class Quotes extends Component {
 
                 Render Quotes With QuoteCard component and pass down callback props for removing, upvoting and downvoting quotes
                */}
+               {quotes.map((quote, id) => <QuoteCard key={id} quote={quote} upvoteQuote={upvoteQuote} downvoteQuote={downvoteQuote} />)}
             </div>
           </div>
         </div>
