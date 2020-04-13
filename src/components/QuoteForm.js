@@ -81,5 +81,14 @@ class QuoteForm extends Component {
   }
 }
 
+const mapStateToProps = state => {
+  return {
+    content: state.content,
+    author: state.author,
+    votes: state.votes,
+    id: state.id
+  }
+}
+
 //add arguments to connect as needed
 export default connect()(QuoteForm);
