@@ -27,7 +27,7 @@ class QuoteForm extends Component {
     // Update component state to return to default state
     event.preventDefault();
     this.props.addQuote(this.state)
-    this.setState({  
+    this.setState({
       content: '',
       author: '',
       votes: 0,
