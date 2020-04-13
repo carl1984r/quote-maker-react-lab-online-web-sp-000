@@ -6,6 +6,7 @@ import { upvoteQuote, downvoteQuote } from "../actions/quotes";
 class Quotes extends Component {
   renderQuotes = () => this.props.quotes.map((quote, id) => <QuoteCard key={id} quote={quote} upvoteQuote={upvoteQuote} downvoteQuote={downvoteQuote} />)
   render() {
+    const { quotes, upvoteQuote, downvoteQuote } = this.props;
     return (
       <div>
         <hr />
