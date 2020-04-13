@@ -35,6 +35,7 @@ const QuoteCard = (props) =>
           </button>
         </div>
         {/* <div>Votes: {Render Quote Votes}</div> */}
+        <div> {props.quote.votes} </div>
       </div>
     </div>
   </div>;
