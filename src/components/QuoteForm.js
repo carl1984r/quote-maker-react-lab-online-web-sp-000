@@ -9,7 +9,7 @@ class QuoteForm extends Component {
     //set up a controlled form with internal state
     content: '',
     author: '',
-    votes: 0, 
+    votes: 0,
     id: uuid(),
   }
 
