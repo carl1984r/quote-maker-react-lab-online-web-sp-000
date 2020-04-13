@@ -47,7 +47,8 @@ class QuoteForm extends Component {
                     <label htmlFor="content" className="col-md-4 control-label">Quote</label>
                     <div className="col-md-5">
                       <textarea
-                        className="form-control"
+                      className="form-control" 
+                        name="content"
                         value={this.state.content}
                       />
                     </div>
